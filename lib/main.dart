@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_algorithm_visualizer/resources/color.dart';
+import 'package:flutter_algorithm_visualizer/resources/typograhpy.dart';
+import 'package:flutter_algorithm_visualizer/selectionSort/selection_sort.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,16 +16,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Algorithm Visualizer',
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color.fromRGBO(255, 255, 247, 1),
-        appBarTheme: const AppBarTheme(
-          titleTextStyle: TextStyle(color: Color.fromRGBO(255, 255, 247, 1),fontSize: 24,fontWeight: FontWeight.w500),
-          centerTitle: true,elevation: 0,color: Colors.indigo),
+        fontFamily: GoogleFonts.lato().fontFamily,
+        scaffoldBackgroundColor: AppColor.fontWhite,
+        appBarTheme:  AppBarTheme(
+            titleTextStyle: CustomTypography.heading1.copyWith(color: AppColor.fontDark),
+            elevation: 0,
+            color: AppColor.fontWhite),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Scaffold(),
+      home: SelectionSort(),
     );
   }
 }
