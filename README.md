@@ -1,18 +1,14 @@
-# flutter_algorithm_visualizer
+# Flutter Algorithm Visualizations
 
-A new Flutter project.
+![Flutter Logo](https://flutter.dev/images/flutter-logo-sharing.png)
 
-## Getting Started
+Welcome to my repository! Here, I explore algorithms and visualize them using Flutter, a popular cross-platform app development framework. My aim is to create simple projects that demonstrate various algorithms in action.
 
-This project is a starting point for a Flutter application.
+## About
 
-A few resources to get you started if this is your first Flutter project:
+In this repository, you'll find a collection of Flutter projects showcasing different algorithms. Each project focuses on visualizing a specific algorithm, making it easier to understand its inner workings. Whether you're new to algorithms or looking to deepen your understanding, these projects provide an interactive way to learn.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Projects
 
-    1-Write the code to compute the sum of two numbers.
+- **Selection Sort **: Selection sort is a simple sorting algorithm that works by repeatedly finding the minimum element from the unsorted part of the array and moving it to the beginning.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
