@@ -1,6 +1,5 @@
 # Flutter Algorithm Visualizations
 
-![Flutter Logo](https://flutter.dev/images/flutter-logo-sharing.png)
 
 Welcome to my repository! Here, I explore algorithms and visualize them using Flutter, a popular cross-platform app development framework. My aim is to create simple projects that demonstrate various algorithms in action.
 
