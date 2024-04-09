@@ -10,4 +10,4 @@ In this repository, you'll find a collection of Flutter projects showcasing diff
 ## Projects
 
 - **Selection Sort **: Selection sort is a simple sorting algorithm that works by repeatedly finding the minimum element from the unsorted part of the array and moving it to the beginning.
-
+![Screenshot_1712670984](https://github.com/muhammedbayhan/flutter_algorithm_visualizer/assets/76851132/16c77a64-4cd2-41a0-9a1a-83adae64c795)
